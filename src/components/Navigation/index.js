@@ -16,7 +16,8 @@ function Navigation() {
         <Link to="/submitexample" className={cx('item')}>Submit Example</Link> 
         <Link to="/changetitle" className={cx('item')}>Change Title</Link> 
         <Link to="/togglefetchapi" className={cx('item')}>Toggle Fetch API</Link>  
-        <Link to="/previewimage" className={cx('item')}>Preview Image</Link> 
+        <Link to="/previewimage" className={cx('item')}>Preview Image</Link>  
+        <Link to="/weather" className={cx('item')}>Weather App</Link> 
       </ul>
     </>
   );

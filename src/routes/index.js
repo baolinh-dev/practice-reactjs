@@ -6,6 +6,7 @@ import CheckInputBox from "../pages/CheckInputBox";
 import ChangeTitle from "../pages/ChangeTitle";
 import ToggleFetchAPI from "../pages/ToggleFetchAPI"; 
 import PreviewImage from "../pages/PreviewImage";
+import WeatherApp from "../pages/WeatherApp";
 
 const publicRoutes = [
   {
@@ -39,6 +40,10 @@ const publicRoutes = [
   {
     path: "/previewimage",
     element: PreviewImage,
+  }, 
+  {
+    path: "/weather",
+    element: WeatherApp,
   },
 ];
 
