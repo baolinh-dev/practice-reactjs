@@ -1,0 +1,30 @@
+.input {
+  width: 200px;
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid #ddd; 
+  margin-right: 20px;
+} 
+
+.btn {  
+  margin-right: 12px;
+  width: 80px; 
+  height: 30px; 
+  background-color: #5cb85c; 
+  color: #000; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  font-size: 12px; 
+  cursor: pointer;
+} 
+
+.list {
+  display: flex; 
+  width: 200px; 
+  justify-content: space-between; 
+  align-items: center;
+} 
+.btn-delete { 
+  width: 80px; 
+  height: 20px;
+}
